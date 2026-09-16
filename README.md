@@ -1,18 +1,11 @@
-# Yukihamada Koe
+# homebrew-koe
 
-## How do I install these formulae?
+Homebrew tap for [KOE OSS](https://github.com/yukihamada/koe-oss) —
+local-first voice cloning and transcription for Apple Silicon.
 
-`brew install yukihamada/koe/<formula>`
-
-Or `brew tap yukihamada/koe` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "yukihamada/koe"
-brew "<formula>"
+```bash
+brew install yukihamada/koe/koe-oss
 ```
 
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+> The app is ad-hoc signed (no Developer ID certificate was available), so the
+> cask clears `com.apple.quarantine` after install. See the cask for details.
